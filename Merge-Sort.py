@@ -1,5 +1,5 @@
 # Ascending order
-def merge_sort(a_list):
+def merge_sort(a_list): # Time Complexities: O(n log n) For all cases
     if len(a_list) > 1:
         # Find midpoint of list
         midpoint = len(a_list) // 2

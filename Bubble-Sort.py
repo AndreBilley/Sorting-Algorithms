@@ -1,6 +1,6 @@
 # Ascending order
-def bubble_sort(a_list):
-    for i in a_list: # Iterates through each element in the list
+def bubble_sort(a_list): # Time complexity: O(n^2) Avg & Worst case, O(n) Best case
+    for i in a_list: # Handles the amount of passes required to complete sort
         for j in range(len(a_list) - 1): # Iterates from first element to second to last element
             if a_list[j] > a_list[j + 1]: # Compares current element to next
                 # Swapping elements if unordered
